@@ -1,0 +1,169 @@
+/*-- CSS Reset --*/
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1em;
+}
+
+body {
+    background: #ffffff;
+    font-family: mrs-eaves, serif;
+    color: rgb(0, 0, 0);
+  
+}
+
+
+
+section, header {
+    width: 80%;
+    max-width: 700px;
+    margin: auto; 
+}
+
+.dark 
+{
+    background: rgb(94, 154, 228);
+    margin: auto;
+    padding: 1em;
+}
+
+
+
+/*-- Styling Typography --*/
+
+h1 {
+    color: #996606; 
+}
+
+p {
+    color: #000000;
+    font-family: mrs-eaves, serif;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+    font-size: 1.4rem;
+}
+
+blockquote {
+    margin-bottom: 1.5rem;
+    line-height: 1.4
+}
+h1 {
+    font-size: 2.5rem;
+    margin-top: -1em;
+    margin-bottom: -1em;
+    text-align: center;
+    font-family: baskerville-display-pt, serif;
+}
+h2 { 
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.999rem;
+    margin-top: -2.5em;
+    margin-bottom: 1em;
+    color:#996606; 
+    text-align: center;
+}
+
+header h2 {
+    font-style: italic;
+    color:rgb(6, 5, 5);
+    margin-top: -3em;
+    margin-bottom: -3em;
+}
+
+.dark h1 {
+    color: #f7f7f7;
+}
+
+.dark h2 {
+    color: #f7f7f7;
+}
+
+.dark p {
+    color: #f7f7f7;
+}
+
+
+blockquote {
+    font-size: 1.414rem;
+    font-style: italic;
+    hanging-punctuation: first;
+    text-indent: -0.75rem;
+}
+
+cite {
+    font-size: 0.8em;
+    color: rgb(255, 250, 250);
+    font-style: normal;
+}
+
+/*-- Styling Links --*/
+a{
+    color: #fffffffd;
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgb(0, 0, 0);
+    border-bottom: 1px dotted;
+}
+
+/*-- Styling Nav --*/
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background: #996606; 
+    padding: 2em 0;
+    font-size: 1.25rem;
+}
+
+nav ul {
+    text-align: center;
+    text-transform: upper-case;
+    letter-spacing: 1px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+}
+
+nav a {
+    color: #f7f7f7
+}
+
+nav a:hover {
+    border-bottom:none;
+    color:rgb(0, 0, 0);
+    transition: all 0.3s ease-in-out;
+}
+
+hr{
+    margin: 100px 0;
+    height: 1px;
+    background-color:#996606; 
+    color: #996606;
+    border: 0 none;
+}
+
+img{
+    margin: 4em 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.75rem;
+    margin: 4em 0 3em;
+    color: #996606
+}
