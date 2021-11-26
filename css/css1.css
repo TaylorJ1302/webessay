@@ -10,7 +10,7 @@
 body {
     background: #ffffff;
     font-family: mrs-eaves, serif;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
   
 }
 
@@ -21,6 +21,8 @@ section, header {
     max-width: 700px;
     margin: auto; 
 }
+
+
 
 .dark 
 {
@@ -40,7 +42,8 @@ h1 {
 p {
     color: #000000;
     font-family: mrs-eaves, serif;
-    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
     line-height: 1.4;
     font-size: 1.4rem;
 }
@@ -63,9 +66,13 @@ h2 {
 
 h3 {
     font-size: 1.999rem;
-    margin-top: -2.5em;
-    margin-bottom: 1em;
-    color:#996606; 
+    color:#FFFFFF; 
+    text-align: center;
+}
+
+h4{
+    font-size:1.999rem;
+    color:#996606;
     text-align: center;
 }
 
@@ -151,7 +158,7 @@ hr{
     margin: 100px 0;
     height: 1px;
     background-color:#996606; 
-    color: #996606;
+    color: #524f49;
     border: 0 none;
 }
 
@@ -167,3 +174,40 @@ footer {
     margin: 4em 0 3em;
     color: #996606
 }
+
+#swiss-style-layout {
+    margin-top: 6em;
+}
+
+.hr-white {
+    margin: 100px 0;
+    height: 1px;
+    background-color:#ffffff; 
+    color: #ffffff;
+    border: 0 none;
+}
+
+
+.bg-dark 
+{
+    min-width: 100%;
+    background: #996606;
+    margin: auto;
+    padding: 2em;
+}
+
+.bg-white {
+    min-width: 100%;
+    background: #ffffff;
+    margin: auto;
+    padding: 2em;
+}
+
+.container {
+
+width: 80%;
+max-width: 700px;
+margin: auto;
+}
+
+
