@@ -9,7 +9,6 @@
 
 body {
     background: #ffffff;
-    font-family: mrs-eaves, serif;
     color: rgb(255, 255, 255);
 }
 
@@ -56,7 +55,8 @@ h1 {
     margin-top: -1em;
     margin-bottom: -1em;
     text-align: center;
-    font-family: baskerville-display-pt, serif;
+    font-family: study, serif;
+    font-style: italic;
 }
 h2 { 
     font-size: 1.2rem;
@@ -67,6 +67,7 @@ h3 {
     font-size: 1.999rem;
     color:#FFFFFF; 
     text-align: center;
+    font-family: study, serif;
 }
 
 h4{
@@ -134,6 +135,9 @@ nav {
     background: #996606; 
     padding: 2em 0;
     font-size: 1.25rem;
+    font-family: study, serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 nav ul {
@@ -222,6 +226,8 @@ margin: auto;
 
 .whitepara p {
     color: #f7f7f7;
+    font-family: study, serif;
+    font-style: italic;
 }
 
 .gridimage{
