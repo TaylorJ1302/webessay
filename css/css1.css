@@ -11,7 +11,6 @@ body {
     background: #ffffff;
     font-family: mrs-eaves, serif;
     color: rgb(255, 255, 255);
-  
 }
 
 
@@ -41,7 +40,7 @@ h1 {
 
 p {
     color: #000000;
-    font-family: mrs-eaves, serif;
+    font-family: study, serif;
     margin-top: 1rem;
     margin-bottom: 2rem;
     line-height: 1.4;
@@ -75,6 +74,8 @@ h4{
     color:#996606;
     text-align: center;
     margin-top: -2.5em; 
+    font-family: study, serif;
+    font-style: italic;
 }
 
 header h2 {
@@ -101,7 +102,8 @@ blockquote {
     font-size: 1.414rem;
     font-style: italic;
     hanging-punctuation: first;
-    text-indent: -0.75rem;
+    text-indent: 0.75rem; 
+    color: #996606;
 }
 
 cite {
@@ -166,7 +168,7 @@ hr{
 img{
     margin: 4em 0;
     padding: 0;
-    max-width: 100%;
+    max-width: auto;
 }
 
 footer {
@@ -204,11 +206,28 @@ footer {
     padding: 2em;
 }
 
+.bg-light {
+min-width: 100%;
+background: #FBE782; 
+margin: auto;
+padding: 2em;
+}
+
 .container {
 
 width: 80%;
 max-width: 700px;
 margin: auto;
+}
+
+.whitepara p {
+    color: #f7f7f7;
+}
+
+.gridimage{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
 }
 
 
