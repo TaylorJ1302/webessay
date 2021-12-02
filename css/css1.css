@@ -217,6 +217,13 @@ margin: auto;
 padding: 2em;
 }
 
+.bg-darkest{
+    min-width: 100%;
+    background: #000000;
+    margin: auto;
+    padding: 2em;
+}
+
 .container {
 
 width: 80%;
