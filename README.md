@@ -1,3 +1,3 @@
 # Josef Müller Brockmann
 
-[Version 1](https://taylorj1302.github.io/webessay1.html/)
+[Version 1](https://taylorj1302.github.io/webessay/webessay1.html/)
