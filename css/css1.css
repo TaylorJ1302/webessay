@@ -52,16 +52,18 @@ blockquote {
 }
 h1 {
     font-size: 3rem;
-    margin-top: -1em;
+    margin-top: 0em;
     margin-bottom: -1em;
     text-align: center;
-    font-family: study bold, serif;
+    font-family: contralto-big, sans-serif;
     font-style: italic;
 }
 h2 { 
     font-size: 1.2rem;
     text-align: center;
     margin-right: -2em;
+    font-family: study, serif;
+
 }
 
 h3 {
@@ -205,7 +207,8 @@ footer a:hover {
 }
 
 .hr-white {
-    margin: 100px 0;
+    margin-top: 2em;
+    margin-bottom: 2em;
     height: 1px;
     background-color:#ffffff; 
     color: #ffffff;
@@ -252,7 +255,7 @@ margin: auto;
 .whitepara p {
     color: #f7f7f7;
     font-family: study, serif;
-    font-style: italic;
+    
 }
 
 .gridimage{
